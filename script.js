@@ -1,0 +1,6 @@
+const page = React.createElement("div", null, React.createElement('h1', null, "Learn Web Development"), React.createElement('p', null, "Welcome to the MDN learning area.This set of articles aims to guide complete beginners to web development with all that need to start coding websites."), React.createElement('p', null, 'The aim of area of this MDN is not to take you from "beginner" to "expert" but to take you from "beginner" to"comfortable".From there ,you should be able to start your way, learning from ', React.createElement('a', {
+    href: "https://developer.mozilla.org/en-US/docs/Learn",
+    target: "_blank",
+    rel: "noopener noreferrer",
+}, "the rest of MDN"), React.createElement('span', null, ', and other intermediate to advanced resources that assume a lort of previous knowledge.')),React.createElement('p',null,'if you are acomplete beginner,web development can be challenging -- we will hold your hand and provide enough detail for you to feel comfortable and learn the topics properly.You should feel comfortable and learn he topics properly. You should feel at home whether you are a student learning web development (on your own or as part of class),a teacher looking for class materials,a hobbyist,or someone who just wants to understand more about how web technologies work.'))
+ReactDOM.render(page, document.getElementById("container"));
